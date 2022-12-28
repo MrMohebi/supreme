@@ -1,5 +1,5 @@
 #!/bin/bash
-MYIP=$(wget -qO- ipinfo.io/ip);
+MYIP=$(wget -qO- ifconfig.io);
 echo "Checking VPS"
 CEKEXPIRED () {
     today=$(date -d +1day +%Y-%m-%d)

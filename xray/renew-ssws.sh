@@ -12,7 +12,7 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 # Getting
-MYIP=$(wget -qO- ipinfo.io/ip);
+MYIP=$(wget -qO- ifconfig.io);
 echo "Checking VPS"
 IZIN=$( curl ipinfo.io/ip | grep $MYIP )
 if [ $MYIP = $MYIP ]; then
